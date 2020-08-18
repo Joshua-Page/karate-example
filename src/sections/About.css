@@ -1,0 +1,163 @@
+.about-section {
+    margin-bottom: 75px;
+}
+
+.join-container {
+    display: flex;
+    height: 40vh;
+}
+
+.left-join {
+    width: 60%;
+    background-color: #08121B;
+    color: #fff;
+}
+
+.right-join {
+    width: 40%;
+    background-image: url('../img/about-image.jpg');
+    background-size:cover;
+    background-position:center;
+}
+
+.join-primary {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 5%;
+    color: #FF220C;
+}
+
+.join-secondary {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.8rem;
+    text-align: center;
+    color: #FFFFFF;
+    width: 80%;
+    line-height: 3rem;
+    margin: 5% auto;
+}
+
+.free-trial-container {
+    display: flex;
+    background: #B81808;
+}
+
+.trial-left {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.trial-left h1 {
+    display: flex;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3rem;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.trial-right {
+    display: flex;
+    width: 40%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.about-text-container {
+    background: #08121B;
+    padding: 10px 0 30px 0;
+}
+
+.about-header {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+    color: #FF220C;
+    padding-top: 2%;
+}
+
+.about-text {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    color: #FFFFFF;
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+@media screen and (min-width: 701px) and (max-width: 1279px) {
+    .join-primary {
+        font-size: 2.4rem;
+    }
+    
+    .join-secondary {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
+    .about-header {
+        font-size: 2.5rem;
+    }
+
+    .about-text {
+        width: 80%;
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (min-width: 350px) and (max-width: 700px) {
+    .join-primary {
+        font-size: 2rem;
+    }
+
+    .join-secondary {
+        font-size: 1rem;
+        line-height: 1.3rem;
+    }
+
+    .trial-left h1 {
+        font-size: 1.3rem;
+        margin-left: 20px;
+        line-height: 1.5rem;
+    }
+
+    .left-join {
+        width: 100%;
+    }
+
+    .right-join {
+        display: none;
+    }
+
+    .join-secondary {
+        font-size: 1.5rem;
+        width: 80%;
+        line-height: 2.2rem;
+    }
+
+    .about-header {
+        width: 80%;
+        margin: auto;
+        font-size: 1.6rem;
+        line-height: 2.5rem;
+    }
+
+    .about-text {
+        width: 80%;
+        font-size: 1.1rem;
+    }
+}

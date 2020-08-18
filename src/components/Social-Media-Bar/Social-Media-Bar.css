@@ -1,0 +1,21 @@
+.social-media-container {
+    position: absolute;
+    bottom: 0;
+    background-color: transparent;
+}
+
+.social-icon-first {
+    color: #fff;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.social-icon {
+    color: #fff;
+    margin-right: 20px;
+}
+
+.social-icon-first:hover, .social-icon:hover {
+    color: #B81808;
+    transition: 0.35s;
+}

@@ -1,0 +1,57 @@
+.form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.section {
+    display: block;
+}
+
+textarea {
+    resize: none;
+}
+
+.label {
+    margin-bottom: 5px;
+    font-size: 1.5rem;
+}
+
+.form input {
+    padding: 10px;
+    margin-bottom: 25px;
+    font-size: 1rem;
+    font-family: Open Sans, 'sans serif';
+}
+
+.form textarea {
+    height: 200px;
+    font-size: 1rem;
+    font-family: Open Sans, 'sans serif';
+}
+
+.form input[type="submit"] {
+    background-color: #c93814;
+    color: #fff;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+.form input[type="submit"]:hover {
+    background-color: #b03112;
+    transition: 0.35s;
+}
+
+
+@media screen and (min-width: 701px) and (max-width: 1279px) {
+    .form {
+        width: 70%;
+    }
+}
+    
+@media screen and (min-width: 350px) and (max-width: 700px) {
+    .form {
+        width: 80%;
+    }
+}

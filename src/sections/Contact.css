@@ -1,0 +1,67 @@
+.contact-section {
+    display: flex;
+    margin: 50px 0;
+}
+
+.header-first {
+    color: #fff;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.header  {
+    color: #fff;
+    font-size: 2rem;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.inner-text {
+    color: #fff;
+}
+
+.headers {
+    height: 100px;
+    margin: auto;
+    width: 30%;
+}
+
+h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3.8rem;
+    line-height: 82px;
+    text-align: center;
+    color: #B81808;
+}
+
+.sub-header {
+    font-size: 1.7rem;
+    line-height: 41px;
+    text-align: center;
+    color: #000000;
+}
+
+.form-div {
+    margin-top: 150px;
+}
+
+@media screen and (min-width: 701px) and (max-width: 1279px) {
+.headers {
+    width: 60%;
+}
+}
+
+@media screen and (min-width: 350px) and (max-width: 700px) {
+    .headers {
+        width: 90%;
+    }
+    
+    h1 {
+    font-size: 3rem;
+    }
+    
+    .sub-header {
+    font-size: 1.5rem;
+    }
+}

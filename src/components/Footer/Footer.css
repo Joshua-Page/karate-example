@@ -1,0 +1,16 @@
+.footer {
+    background-color: #08121B;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info {
+    color: #fff;
+    margin-right: 20px;
+}
+
+.arrow:hover {
+    color: #FF220C;
+    transition: 0.35s;
+}
