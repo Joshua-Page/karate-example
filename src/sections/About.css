@@ -72,6 +72,10 @@
     align-items: center;
 }
 
+.trial-right a {
+    margin: auto;
+}
+
 .about-text-container {
     background: #08121B;
     padding: 10px 0 30px 0;

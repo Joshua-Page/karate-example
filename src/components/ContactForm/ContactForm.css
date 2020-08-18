@@ -36,11 +36,13 @@ textarea {
     color: #fff;
     font-size: 1.5rem;
     margin-top: 20px;
+    border: 1px solid transparent;
+    transition: 0.5s;
 }
 
 .form input[type="submit"]:hover {
-    background-color: #b03112;
-    transition: 0.35s;
+    background-color: #B81808;
+    transition: 0.5s;
 }
 
 

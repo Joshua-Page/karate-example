@@ -9,8 +9,13 @@ const Classes = () => {
         <div className="classes-section" id="classes">
             {/* Schedule, Calendar & map */}
             <div className="title">
-                <p>OUR SCHEDULE</p>
+                <h1>OUR SCHEDULE</h1>
+                <p className="sub-title">Come along to our next session or get in contact today!</p>
             </div>
+            {/* <div className="title">
+                <h1>OUR SCHEDULE</h1>
+                <h2>Contact us or come along to our next session!</h2>
+            </div> */}
             <div className="calendar">
                 <CalendarSmall />
                 <div className="map">

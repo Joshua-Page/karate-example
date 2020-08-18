@@ -9,7 +9,7 @@ const Contact = () => {
         <Fragment>
             <div className="contact-section" id="contact">
                 <div className="headers">
-                    <h1>Contact Us!</h1>
+                    <h1>CONTACT US</h1>
                     <p className="sub-header">Whether you’re looking for more info or are ready to start training!</p>
                 </div>
             </div>

@@ -13,16 +13,23 @@
 }
 
 .title {
-    background-color: #B81808;
-    text-transform: uppercase;
-    color: #fff;
-    width: 50%;
-    font-size: 3em;
     margin: auto;
-    text-align:  center;
-    -webkit-box-shadow: 2px 1px 5px 1px #000000; 
-    -moz-box-shadow: 2px 1px 5px 1px #000000;
-    box-shadow: 2px 1px 5px 1px #000000;
+}
+
+.title h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3.8rem;
+    line-height: 82px;
+    text-align: center;
+    color: #B81808;
+}
+
+.sub-title {
+    font-size: 1.7rem;
+    line-height: 41px;
+    text-align: center;
+    color: #000000;
 }
 
 .map {
@@ -73,6 +80,10 @@
     .title {
         width: 80%;
         font-size: 2rem;
+    }
+
+    .sub-title {
+
     }
 
     .prices h1 {
