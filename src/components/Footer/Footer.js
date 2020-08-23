@@ -17,7 +17,6 @@ const Footer = () => {
                     <div className="arrow"><FaArrowUp size="28px" /></div>
                 </Link>
             </div>
-
         </div>
     );
 }

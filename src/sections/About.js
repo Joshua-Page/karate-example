@@ -11,7 +11,7 @@ const About = () => {
             {/* Section one, join & image */}
             <div className="join-container">
                 <div className="left-join">
-                    <h1 className="join-primary">JOIN US AND THE JKA</h1>
+                    <h1>JOIN US AND THE JKA</h1>
                     <h2 className="join-secondary">Turn your dreams into reality, improve yourself and begin studying Karate with us today!</h2>
                 </div>
                 <div className="right-join" />
@@ -31,15 +31,13 @@ const About = () => {
 
             {/* About text information area */}
             <div className="about-text-container">
-                <h1 className="about-header">
-                    ABOUT EXAMPLE KARATE CLUB
-                </h1>
-                <p className="about-text">
+                <h1>ABOUT EXAMPLE KARATE CLUB</h1>
+                <h2 className="about-text">
                     Formed in 2020, Example Karate club is a local Karate club welcoming students of all ages and experience levels.
-                </p>
-                <p className="about-text">
+                </h2>
+                <h2 className="about-text">
                     We welcome any potential student to join our Karate club and begin learning with us. We have lessons catered to anyone of any experience level.
-                </p>
+                </h2>
 
 
             </div>

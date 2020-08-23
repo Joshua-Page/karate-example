@@ -1,13 +1,13 @@
 .footer {
     background-color: #08121B;
-    height: 70px;
     display: flex;
     justify-content: space-between;
 }
 
 .info {
     color: #fff;
-    margin-right: 20px;
+    margin-left: 10px;
+    line-height: 25px;
 }
 
 .arrow:hover {

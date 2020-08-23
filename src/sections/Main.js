@@ -8,8 +8,10 @@ import Button from '../components/Button/Button'
 const Main = () => {
     return (
         <div className="main-section" id="main">
-            <p className="landing-text-small">WELCOME TO</p>
-            <p className="landing-text-large">EXAMPLE KARATE CLUB</p>
+            <div className="text-area">
+                <h2>WELCOME TO</h2>
+                <h1>EXAMPLE KARATE CLUB</h1>
+            </div>
             <div className="button-box">
                 <Link activeClass="active" className="list-item" to="classes" spy={true} smooth={true} duration={500}>
                     <Button text={'Get Started'} class={'default primary'} />

@@ -43,7 +43,7 @@ h1 {
 }
 
 .form-div {
-    margin-top: 150px;
+    margin-top: 120px;
 }
 
 @media screen and (min-width: 701px) and (max-width: 1279px) {
@@ -63,5 +63,9 @@ h1 {
     
     .sub-header {
     font-size: 1.5rem;
+    }
+
+    .form-div {
+        margin-top: 150px;
     }
 }

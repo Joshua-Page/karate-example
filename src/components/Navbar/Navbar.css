@@ -28,6 +28,6 @@
 
 @media screen and (min-width: 350px) and (max-width: 700px) {
     .list-item {
-        font-size: 1rem;
+        font-size: 1.05rem;
     }
 }
