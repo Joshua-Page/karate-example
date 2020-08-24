@@ -135,7 +135,7 @@
     }
 }
 
-@media screen and (min-width: 0px) and (max-width: 700px) {
+@media screen and (min-width: 350px) and (max-width: 700px) {
     .left-join > h1 {
         font-size: 2rem;
         line-height: 50px;
@@ -143,11 +143,6 @@
 
     .join-primary {
         font-size: 2rem;
-    }
-
-    .join-secondary {
-        font-size: 1rem;
-        line-height: 1.3rem;
     }
 
     .trial-left h1 {
@@ -166,14 +161,18 @@
 
     .join-secondary {
         font-size: 1.5rem;
-        width: 80%;
+        width: 100%;
         line-height: 2.2rem;
     }
 
     .about-header {
-        width: 80%;
+        width: 100%;
         font-size: 1.6rem;
         line-height: 2.5rem;
+    }
+
+    .about-text-container {
+        padding: 30px;
     }
 
     .about-text-container > h1 {
@@ -184,5 +183,45 @@
     .about-text-container > h2 {
         width: 100%;
         font-size: 1.2rem;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 349px) {
+    .left-join {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .left-join > h1 {
+        font-size: 1.5rem;
+        line-height: 50px;
+    }
+
+    .left-join h2 {
+        font-size: 1rem;
+    }
+
+    .right-join {
+        display: none;
+    }
+
+    .trial-left h1 {
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+    }
+    
+    .about-text-container {
+        padding: 30px;
+    }
+
+    .about-text-container > h1 {
+        font-size: 1.5rem;
+        line-height: 30px;
+    }
+
+    .about-text-container > h2 {
+        width: 100%;
+        font-size: 1rem;
+        margin-top: 25px;
     }
 }

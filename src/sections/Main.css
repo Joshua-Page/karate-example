@@ -40,6 +40,10 @@
     margin-top: 50px;
 }
 
+.button-box > .list-item {
+    margin: auto;
+}
+
 @media screen and (min-width: 701px) and (max-width: 1279px) {
     .main-section h2 {
         font-size: 2rem;
