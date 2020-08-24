@@ -9,3 +9,7 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
 );
+
+// FIX TEXT SIZING
+// FIX BUTTON GOING OFF SCREEN ON MOBILE (TRIAL)
+// ADD CUSTOM BURGER MENU/ALTERNATIVE?

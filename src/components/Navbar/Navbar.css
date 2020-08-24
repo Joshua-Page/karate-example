@@ -26,8 +26,9 @@
     transition: 0.5s;
 }
 
-@media screen and (min-width: 350px) and (max-width: 700px) {
+@media screen and (min-width: 0px) and (max-width: 700px) {
     .list-item {
-        font-size: 1.05rem;
+        font-size: 1rem;
+        padding: 0;
     }
 }
