@@ -22,8 +22,8 @@
     font-weight: bold;
     font-size: 3.8rem;
     line-height: 82px;
-    text-align: center;
     color: #B81808;
+    margin-bottom: 25px;
 }
 
 .sub-title {
@@ -47,13 +47,14 @@
     font-weight: bold;
     font-size: 3.5rem;
     text-align: center;
-    color: #B81808;
+    color: #FF220C;
     padding-top: 20px;
     text-transform: uppercase;
 }
 
 .prices h2 {
     font-style: normal;
+    font-weight: normal;
     font-size: 2rem;
     text-align: center;
     text-transform: uppercase;
@@ -74,24 +75,39 @@
     .title {
         width: 60%;
     }
+
+    .title h1 {
+        font-size: 3.5rem;
+    }
+
+    .prices h1 {
+        font-size: 3.5rem;
+        line-height: 70px;
+        margin-bottom: 20px;
+    }
+
+    .prices h2 {
+        font-size: 2.5rem;
+    }
 }
 
 @media screen and (min-width: 0px) and (max-width: 700px) {
     .title {
         width: 80%;
-        font-size: 2rem;
     }
 
-    .sub-title {
-
+    .title h1 {
+        font-size: 2.9rem;
+        line-height: 50px;
     }
 
     .prices h1 {
         font-size: 2.5rem;
         line-height: 50px;
+        margin-bottom: 30px;
     }
 
     .prices h2 {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
     }
 }

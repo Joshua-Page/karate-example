@@ -20,7 +20,7 @@
     background-position:center;
 }
 
-h1 {
+.left-join > h1 {
     font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
@@ -40,7 +40,7 @@ h1 {
     margin: 2% auto;
 }
 
-h2 {
+.left-join > h2 {
     font-weight: normal;
 }
 
@@ -87,6 +87,19 @@ h2 {
     padding: 60px;
 }
 
+.about-text-container > h1 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+    color: #FF220C;
+}
+
+.about-text-container > h2 {
+    font-weight: normal;
+}
+
 .about-text {
     font-family: Open Sans;
     font-style: normal;
@@ -98,6 +111,11 @@ h2 {
 }
 
 @media screen and (min-width: 701px) and (max-width: 1279px) {
+    .left-join > h1 {
+        font-size: 2.5rem;
+        line-height: 70px;
+    }
+
     .join-primary {
         font-size: 2.4rem;
     }
@@ -118,6 +136,11 @@ h2 {
 }
 
 @media screen and (min-width: 0px) and (max-width: 700px) {
+    .left-join > h1 {
+        font-size: 2rem;
+        line-height: 50px;
+    }
+
     .join-primary {
         font-size: 2rem;
     }
@@ -153,8 +176,13 @@ h2 {
         line-height: 2.5rem;
     }
 
-    .about-text {
-        width: 80%;
-        font-size: 1.1rem;
+    .about-text-container > h1 {
+        font-size: 1.8rem;
+        line-height: 50px;
+    }
+
+    .about-text-container > h2 {
+        width: 100%;
+        font-size: 1.2rem;
     }
 }

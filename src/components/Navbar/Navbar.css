@@ -1,10 +1,14 @@
 .navbar {
     position: absolute;
-    width: 100%;
     display: flex;
+    width: 100%;
     justify-content: flex-end;
     list-style-type: none;
     background-color: transparent;
+}
+
+.navbar > .list-item {
+    border-bottom: 2px solid #c93814;
 }
 
 .list-item {
@@ -12,6 +16,7 @@
     display: inline-block;
     font-size: 1.6rem;
     padding: 1rem 2rem;
+    margin-right: 20px;
     text-decoration: none;
     font-weight: bold;
     color: #fff;
@@ -20,15 +25,21 @@
 
 /* Styling for animated underline on nav items */
 
-.nav:hover {
+.nav:hover, .nav:active {
     cursor: pointer;
     background-color: #c93814;
     transition: 0.5s;
 }
 
 @media screen and (min-width: 0px) and (max-width: 700px) {
+    .navbar {
+        justify-content: space-evenly;
+        padding: 5px;
+    }
+
     .list-item {
-        font-size: 1rem;
-        padding: 0;
+        font-size: 1.1rem;
+        padding: 10px;
+        margin-right: 0;
     }
 }
